@@ -9,7 +9,7 @@
     
 }
 
-.navbar-container {
+.navbar-container, .hero-content-container {
     max-width: 860px;
     margin: 0 auto;
     padding: 20px 15px;
@@ -21,12 +21,21 @@
 .nav-logo {
     font-size: 24px;
     font-weight: bolder;
-    color: #F9FAF8;
+    
     
 }
 
-.navlink {
+.nav-logo, .hero-text-container > h1 {
+    color:#F9FAF8
+}
+
+.navlink, .hero-text-container > p  {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero-text-container > h1 {
+   font-size: 48px;
+   font-weight: 800;
 }
