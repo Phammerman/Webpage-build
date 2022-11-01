@@ -14,14 +14,37 @@
     margin: 0 auto;
     padding: 20px 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+}
+
+.nav {
+    flex-grow: 1;
+    margin: auto 0;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1em;
+    background-color: green;
+    
+}
+
+nav ul li {
+    list-style: none;
+    
+    
+}
+
+nav ul li:nth-child(1) {
+    background-color: red;
+    margin-left: auto;
+    
 }
 
 .nav-logo {
     font-size: 24px;
     font-weight: bolder;
-    
+    background-color: rgb(70, 99, 124);
     
 }
 
