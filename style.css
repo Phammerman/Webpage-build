@@ -62,3 +62,12 @@ nav ul li:nth-child(1) {
    font-size: 48px;
    font-weight: 800;
 }
+
+.img-placeholder {
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+/* TODO order things better & finish hero section*/
