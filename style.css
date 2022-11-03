@@ -7,6 +7,7 @@
 .hero-section {
     background-color: #1F2937;
     
+    
 }
 
 .navbar-container, .hero-content-container {
@@ -19,6 +20,7 @@
 
 .hero-content-container {
     gap: 1em;
+    padding: 80px 15px;
 }
 
 .nav {
@@ -29,7 +31,7 @@
 .nav ul {
     display: flex;
     gap: 1em;
-    background-color: green;
+    ;
     
 }
 
@@ -40,7 +42,7 @@ nav ul li {
 }
 
 nav ul li:nth-child(1) {
-    background-color: red;
+    
     margin-left: auto;
     
 }
@@ -48,7 +50,7 @@ nav ul li:nth-child(1) {
 .nav-logo {
     font-size: 24px;
     font-weight: bolder;
-    background-color: rgb(70, 99, 124);
+    
     
 }
 
@@ -65,12 +67,24 @@ nav ul li:nth-child(1) {
 .hero-text-container > h1 {
    font-size: 48px;
    font-weight: 800;
-   line-height: 90%;
+   line-height: 100%;
+   margin-bottom: 10px;
+   
    
 }
 
+.hero-text-container > button {
+    color:#E5E7EB;
+    background-color: #3d80dd;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
 .hero-text-container {
-    background-color: green;
+    
 }
 
 .img-placeholder {
