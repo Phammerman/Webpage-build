@@ -10,7 +10,7 @@
     
 }
 
-.navbar-container, .hero-content-container {
+.navbar-container, .hero-content-container, .random-container {
     max-width: 860px;
     margin: 0 auto;
     padding: 20px 15px;
@@ -93,4 +93,36 @@ nav ul li:nth-child(1) {
     padding: 50px 150px;
 }
 
-/* TODO order things better & finish hero section*/
+.random-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.random-content-container, h2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info-build {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+
+.info-build > p {
+    text-align: center;
+}
+
+.rectangle {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    margin
+    
+}
